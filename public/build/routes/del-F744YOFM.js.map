@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:C:\\Users\\jsparla\\apps\\dashtest\\app\\routes\\del.tsx?browser", "../../../app/routes/del.tsx"],
+  "sourcesContent": ["export { default } from \"C:\\\\Users\\\\jsparla\\\\apps\\\\dashtest\\\\app\\\\routes\\\\del.tsx\";", "import { Outlet } from \"react-router-dom\";\r\n\r\nexport default function IndexRoute() {\r\n  return (\r\n    <div>\r\n      {\" \"}\r\n      IndexRoute\r\n      <Outlet />\r\n    </div>\r\n  );\r\n}\r\n"],
+  "mappings": ";;;;;;;;;AAAA;;;ACAA;AAEe,sBAAsB;AACnC,SACE,oCAAC,OAAD,MACG,KAAI,cAEL,oCAAC,QAAD;AAAA;",
+  "names": []
+}

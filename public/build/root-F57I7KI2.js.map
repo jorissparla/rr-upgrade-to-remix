@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:C:\\Users\\jsparla\\apps\\dashtest\\app\\root.tsx?browser", "../../app/root.tsx"],
+  "sourcesContent": ["export { default } from \"C:\\\\Users\\\\jsparla\\\\apps\\\\dashtest\\\\app\\\\root.tsx\";", "import { Outlet } from \"@remix-run/react\";\r\n\r\nexport default function Root() {\r\n  return (\r\n    <html lang=\"en\">\r\n      <head>\r\n        <meta charSet=\"utf-8\" />\r\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\r\n        <meta name=\"theme-color\" content=\"#000000\" />\r\n        <meta name=\"description\" content=\"My beautiful React app\" />\r\n\r\n        <title>My React App</title>\r\n      </head>\r\n      <body>\r\n        <div id=\"root\">\r\n          <Outlet />\r\n        </div>\r\n      </body>\r\n    </html>\r\n  );\r\n}\r\n"],
+  "mappings": ";;;;;;;;;;AAAA;;;ACAA;AAEe,gBAAgB;AAC7B,SACE,oCAAC,QAAD;AAAA,IAAM,MAAK;AAAA,KACT,oCAAC,QAAD,MACE,oCAAC,QAAD;AAAA,IAAM,SAAQ;AAAA,MACd,oCAAC,QAAD;AAAA,IAAM,MAAK;AAAA,IAAW,SAAQ;AAAA,MAC9B,oCAAC,QAAD;AAAA,IAAM,MAAK;AAAA,IAAc,SAAQ;AAAA,MACjC,oCAAC,QAAD;AAAA,IAAM,MAAK;AAAA,IAAc,SAAQ;AAAA,MAEjC,oCAAC,SAAD,MAAO,kBAET,oCAAC,QAAD,MACE,oCAAC,OAAD;AAAA,IAAK,IAAG;AAAA,KACN,oCAAC,QAAD;AAAA;",
+  "names": []
+}

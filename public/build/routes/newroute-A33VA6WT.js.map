@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:C:\\Users\\jsparla\\apps\\dashtest\\app\\routes\\newroute.tsx?browser", "../../../app/routes/newroute.tsx"],
+  "sourcesContent": ["export { default } from \"C:\\\\Users\\\\jsparla\\\\apps\\\\dashtest\\\\app\\\\routes\\\\newroute.tsx\";", "export default function NewRoute() {\r\n  return (\r\n    <div>\r\n      <h1>New Route</h1>\r\n    </div>\r\n  );\r\n}\r\n"],
+  "mappings": ";;;;;;AAAA;;;ACAA;AAAe,oBAAoB;AACjC,SACE,oCAAC,OAAD,MACE,oCAAC,MAAD,MAAI;AAAA;",
+  "names": []
+}

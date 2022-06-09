@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:C:\\Users\\jsparla\\apps\\dashtest\\app\\routes\\$.tsx?browser", "../../../app/routes/$.tsx", "../../../app/old-app/app.tsx"],
+  "sourcesContent": ["export { default } from \"C:\\\\Users\\\\jsparla\\\\apps\\\\dashtest\\\\app\\\\routes\\\\$.tsx\";", "export { default } from \"~/old-app/app\";\r\n", "import { BrowserRouter, Link, Outlet, Route, Routes } from \"react-router-dom\";\n\nfunction About() {\n  return (\n    <main>\n      <h1>About us</h1>\n    </main>\n  );\n}\nfunction Home() {\n  return (\n    <div>\n      <h1>Home</h1>\n      <nav>\n        <Link to=\"/\">Home</Link> | <Link to=\"about\">About</Link>\n      </nav>\n      <Outlet />\n    </div>\n  );\n}\n\nexport default function App() {\n  return (\n    <Routes>\n      <Route path=\"/\" element={<Home />}>\n        <Route index element={<h1>default</h1>} />\n        <Route path=\"about\" element={<About />} />\n      </Route>\n    </Routes>\n  );\n}\n"],
+  "mappings": ";;;;;;;;;;AAAA;;;ACAA;;;ACAA;AAEA,iBAAiB;AACf,SACE,oCAAC,QAAD,MACE,oCAAC,MAAD,MAAI;AAAA;AAIV,gBAAgB;AACd,SACE,oCAAC,OAAD,MACE,oCAAC,MAAD,MAAI,SACJ,oCAAC,OAAD,MACE,oCAAC,MAAD;AAAA,IAAM,IAAG;AAAA,KAAI,SAAW,OAAG,oCAAC,MAAD;AAAA,IAAM,IAAG;AAAA,KAAQ,WAE9C,oCAAC,QAAD;AAAA;AAKS,eAAe;AAC5B,SACE,oCAAC,QAAD,MACE,oCAAC,OAAD;AAAA,IAAO,MAAK;AAAA,IAAI,SAAS,oCAAC,MAAD;AAAA,KACvB,oCAAC,OAAD;AAAA,IAAO,OAAK;AAAA,IAAC,SAAS,oCAAC,MAAD,MAAI;AAAA,MAC1B,oCAAC,OAAD;AAAA,IAAO,MAAK;AAAA,IAAQ,SAAS,oCAAC,OAAD;AAAA;AAAA;",
+  "names": []
+}
